@@ -72,5 +72,8 @@ Folder
 
 ## Auteurs
 JEANPIERRE Thibault
+
+![Logo](img/Logo.png)
+
 Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
