@@ -24,19 +24,51 @@ Les dépendances peuvent être installées en utilisant pip install requirements
 Clonez le dépôt vers votre machine locale.
 
 ```bash
-Copy code
 git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/jpthibault20/analyseHW1_universelle.git)
 cd votre-projet
 Installez les dépendances nécessaires.
 ```
-Copy code
-pip install -r requirements.txt
+pip install matplotlib
 
+Arborescence à avoir pour l'utilisation ce script : 
+
+```plaintext
+Folder
+  |  DATA
+  |    |   TS_0003_02_2023_12_15_00050
+  |    |   ...
+  |    |   TS_0003_02_2023_12_15_00059
+```
+
+  
 Suivez les instructions en commentaire du notebook pour fournir les chemins des fichiers de données et spécifier les options de visualisation.
+
 
 ## Exemples
 
-Description du graphique et des insights obtenus à partir de l'analyse.
+Voici l'exemple d'un graphique généré :
+
+![graph exemple output](img/output.png)
+
+L'arborescence attendue : 
+```plaintext
+Folder
+  |  DATA
+  |    |   TS_0003_02_2023_12_15_00050
+  |    |   ...
+  |    |   TS_0003_02_2023_12_15_00059
+  |  dataConcatenate
+  |    |   concatene_02
+  |    |   ...
+  |    |   concatene_99
+  |  graph
+  |    |   Tension.png
+  |    |   Tension moy.png
+  |    |   ...
+  |    |   Température.png
+```
+
+
 
 ## Auteurs
 JEANPIERRE Thibault
