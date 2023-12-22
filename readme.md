@@ -23,30 +23,22 @@ Les dépendances peuvent être installées en utilisant pip install requirements
 ## Utilisation
 Clonez le dépôt vers votre machine locale.
 
-bash
+```bash
 Copy code
 git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/jpthibault20/analyseHW1_universelle.git)
 cd votre-projet
 Installez les dépendances nécessaires.
-
+```
 Copy code
 pip install -r requirements.txt
-Exécutez le script principal.
 
-css
-Copy code
-python main.py
-Suivez les instructions pour fournir les chemins des fichiers de données et spécifier les options de visualisation.
+Suivez les instructions en commentaire du notebook pour fournir les chemins des fichiers de données et spécifier les options de visualisation.
 
-Exemples
+## Exemples
 
 Description du graphique et des insights obtenus à partir de l'analyse.
 
-Auteurs
-Nom de l'auteur 1
-Nom de l'auteur 2
+## Auteurs
+JEANPIERRE Thibault
 Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
-
-Remerciements
-Remerciements spéciaux à [nom de la personne ou de l'organisation] pour [contributions spécifiques ou soutien].
