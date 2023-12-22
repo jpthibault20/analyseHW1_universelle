@@ -73,7 +73,8 @@ Folder
 ## Auteurs
 JEANPIERRE Thibault
 
-![Logo](img/Logo.png)
+<img src="img/Logo.png" alt="Logo" width="100" height="100">
+
 
 Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
